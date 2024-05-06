@@ -1,4 +1,6 @@
-
+.f_content2 p{
+    margin:0;
+}
 
 /* 点滅 */
 .bg-wp{
@@ -124,7 +126,7 @@
         margin: auto;
     }
     .home-wp{
-        padding:10%;
+        padding:3%;
     }
     .home-in{
         width: fit-content;
