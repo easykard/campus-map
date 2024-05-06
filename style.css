@@ -1,5 +1,72 @@
 
-    .men{
+
+/* 点滅 */
+.bg-wp{
+    text-align: center;
+    margin-bottom: 10%;
+}
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+ .fotter img{
+    width: 50%;
+  }
+  .f_content3 img{
+    width:80%;
+  }
+  .make{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .make p{
+    margin:0;
+    font-size: 150%;
+    width:fit-content;
+    border-style: solid;
+    border-radius: 30px;
+  }
+  .f_content1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .f_content2{
+    padding:10%;
+    padding-top: 0;
+    border-bottom: 1px solid white;
+    flex-flow: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .f_content3{
+    padding:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body{
+    font-family:"Century Gothic", sans-serif;
+   }
+   .hed_tx{
+    padding:10%;
+   }
+   .men{
         margin-left:15%;
     }
     .men_wp{
@@ -23,9 +90,10 @@
         width:100%;
     }
     .hed{
+        color:white;
         width:100%;
         height:100vh;
-        padding:15%;
+        padding:5%;
         background-color: #9b5ea2;
         box-sizing: border-box;
         display:flex;
@@ -37,7 +105,7 @@
         padding-top: 30%;
     }
     .hed img{
-        width:50%;
+        width:80%;
     }
     .hed h1{
         text-align: center;
