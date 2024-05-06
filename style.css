@@ -7,7 +7,7 @@
   .scroll_down p{
     color: white;
     position: absolute;
-    bottom: 60px;
+    bottom: 30px;
     left: 50%;
     display: block;
     background-size: 14px auto;
@@ -132,7 +132,6 @@
    }
    .hed_tx{
     padding:10%;
-    padding-bottom: 20%;
    }
    .men{
         margin-left:15%;
