@@ -132,7 +132,11 @@
     font-family:"Century Gothic", sans-serif;
    }
    .hed_tx{
-    padding:5%;
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+   .hed_tx p{
+    margin:0;
    }
    .men{
         margin-left:15%;
@@ -165,8 +169,6 @@
         background-color: #9b5ea2;
         box-sizing: border-box;
         display:flex;
-        justify-content: center;
-        align-items: center;
         flex-flow: column;
     }
     .rulu{
