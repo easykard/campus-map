@@ -7,7 +7,7 @@
   .scroll_down p{
     color: white;
     position: absolute;
-    bottom: 0px;
+    bottom: 10px;
     left: 50%;
     display: block;
     background-size: 14px auto;
@@ -132,7 +132,7 @@
     font-family:"Century Gothic", sans-serif;
    }
    .hed_tx{
-    padding:10%;
+    padding:5%;
    }
    .men{
         margin-left:15%;
