@@ -270,6 +270,12 @@
 
 @media screen and (min-width: 481px) {
 	/* 481px以上に適用されるCSS（タブレット用） */
+  .hed img{
+    width: 45%;
+  }
+  .fotter img{
+    width: 30%;
+  }
 }
 @media screen and (min-width: 960px) {
 	/* 960px以上に適用されるCSS（PC用） */
@@ -282,4 +288,20 @@
   .f_content3 img{
     width:40%;
   }
+  .hed_tx{
+    padding-left: 30%;
+    padding-right: 30%;
+   }
+   .home{
+    align-items: center;
+    flex-flow: column;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width:80%;
+    margin: auto;
+  }
+  .rulu{
+    padding-top: 10%;
+}
 }
