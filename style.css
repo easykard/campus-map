@@ -176,7 +176,7 @@
         padding-top: 30%;
     }
     .hed img{
-        width:80%;
+      width: 80%;
     }
     .hed h1{
         text-align: center;
@@ -266,3 +266,20 @@
     ,radial-gradient(circle at 75% 75%,white 10%,#00000000 11%);
     transform:rotateY(180deg) translateZ(75px);
     }
+    /* スマホ用のCSSはメディアクエリの外に記述する */
+
+@media screen and (min-width: 481px) {
+	/* 481px以上に適用されるCSS（タブレット用） */
+}
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+  .hed img{
+    width: 35%;
+  }
+  .fotter img{
+    width: 20%;
+  }
+  .f_content3 img{
+    width:40%;
+  }
+}
