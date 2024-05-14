@@ -175,6 +175,37 @@
     .rulu{
         padding-top: 30%;
     }
+
+    .event-content p{
+      margin:1%;
+    }
+    .event-content1{
+      margin:2%;
+    }
+    .event-content2{
+      margin:2%;
+    }
+    .event-content3{
+      margin:2%;
+    }
+    .event-content4{
+      margin:2%;
+    }
+    .event-content{
+      margin:1%;
+    }
+    .play-content{
+      margin:1%;
+    }
+    .play-content p{
+      margin:2%;
+    }
+    .eat-content{
+      margin:1%;
+    }
+    .eat-content p{
+      margin:2%;
+    }
     .hed img{
       width: 80%;
     }
@@ -195,7 +226,7 @@
         margin: auto;
     }
     .home-wp{
-        padding:3%;
+        padding:2%;
     }
     .home-in{
         width: fit-content;
